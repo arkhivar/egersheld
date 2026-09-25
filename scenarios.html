@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Egersheld — ownership, funding and vesting planning for fictional SoftDV. A Grist-powered prototype.">
+  <meta name="theme-color" content="#192941">
+  <title>Scenarios · Egersheld</title>
+  <link rel="icon" type="image/svg+xml" href="shared/favicon.svg?v=1.00">
+  <link rel="stylesheet" href="shared/ui.css?v=1.00">
+  <link rel="stylesheet" href="widgets/funding.css?v=1.00">
+  <script src="https://docs.getgrist.com/grist-plugin-api.js" defer></script>
+  <script src="shared/model.js?v=1.00" defer></script>
+  <script src="shared/demo-data.js?v=1.00" defer></script>
+  <script src="shared/data.js?v=1.00" defer></script>
+  <script src="shared/ui.js?v=1.00" defer></script>
+  <script src="widgets/scenarios.js?v=1.00" defer></script>
+  <script src="shared/app.js?v=1.00" defer></script>
+</head>
+<body data-page="scenarios">
+  <div id="app"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <aside class="help-popover card" id="help-popover" hidden aria-label="About this prototype">
+    <h2>A safe place for “what if”.</h2>
+    <p>SoftDV and all people, holdings and grants here are fictional. This prototype supports planning, not legal ownership records, investment advice, valuations or regulatory filings.</p>
+    <p>Baseline tables stay read-only in the widgets. Saved scenarios hold assumptions only and recalculate against the current baseline. In Grist, they persist in the document; in the standalone demo, they stay in this browser.</p>
+    <a href="https://github.com/arkhivar/egersheld#model-assumptions" target="_blank" rel="noopener">Read the model assumptions ↗</a>
+  </aside>
+  <noscript>This workspace requires JavaScript. No API key is needed in your browser.</noscript>
+</body>
+</html>

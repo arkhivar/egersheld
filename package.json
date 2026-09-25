@@ -1,0 +1,9 @@
+{
+  "name": "egersheld",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Grist-powered ownership and funding planning prototype for fictional SoftDV.",
+  "scripts": { "test": "node --test tests/*.test.cjs", "start": "node scripts/serve.cjs", "provision": "node scripts/provision.cjs" },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "jsdom": "26.1.0" }
+}
